@@ -17,17 +17,17 @@ import java.util.Arrays;
 @SpringBootApplication
 public class HomebankingApplication {
 
-/*
+
 	@Autowired
 	PasswordEncoder passwordEncoder;
-*/
+
 	public static void main(String[] args) {
 		SpringApplication.run(HomebankingApplication.class, args);
 	}
 
 	//CommandLineRunner agrega data al ClienRepository
 	//De esta forma agregamos data interna y no desde la consola
-/*
+
 	@Bean
 	public CommandLineRunner initData(ClientRepository clientRepository,
 									  AccountRepository accountRepository,
@@ -118,5 +118,5 @@ public class HomebankingApplication {
 			clientSeguroRepository.save(clientSeguro1);
 		};
 	}
-	*/
+
 }
